@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	pb "github.com/fiveletter/microservices-demo/consignment-service/proto/consignment"
+	pb "github.com/fiveletter/consignment-service/proto/consignment"
 	microclient "github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/cmd"
 	"golang.org/x/net/context"
